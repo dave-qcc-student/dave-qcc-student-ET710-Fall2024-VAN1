@@ -1,0 +1,42 @@
+body {
+    background-color: #555555;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+input{
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #btn1 {
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        background-color: green;
+        
+    }
+button{
+    size: 50px;
+}
+    #btn1:hover {
+        text-decoration: underline;
+        background-color: rgb(0, 95, 0);
+    }
+    
+
+    #btn2 {
+        border-radius: 5px;
+        color: black;
+        background-color: red;
+    
+    }
+
+    #btn2:hover {
+        text-decoration: underline;
+        background-color: rgb(170, 0, 0);
+    }
+
