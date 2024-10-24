@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn CSS with me</title>
+    <style type="text/css">
+        body{
+             background-color: #dddddd;
+             font-family: Arial, Helvetica, sans-serif;
+             
+             background-repeat: no-repeat;
+             background-position: center;
+        }
+        .heading-blue
+        {
+            font-size: 18pt;
+            color: blue;
+        }
+        .heading
+        {
+            font-size: 26pt;
+            font-weight: 600;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .sub-heading
+        {
+            font-size: 23pt;
+            font-weight: 600;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+<img id="bg" src="bg.png" class="rotate90">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1> Formatting content with CSS</h1>
+
+        we will explore how to use CSS to manipulate content is displayed
+
+    </header>
+
+    <main>
+        <section>
+            <h2 class="heading-blue">Custom Headings:</h2>
+
+            <span class="heading">This would be heading 1 tag</span>
+
+            <span class="sub-heading">this would be a heading 2 tag</span>
+        </section>
+
+        <section>
+            <h2 class="heading-blue">Cascading styles:</h2>
+            <p class="italics">
+                <span class="sub-heading">Nested span tag will be italized too!</span>
+                "a computer would deserve to be called <span class="bold-text red-text">intelligent</span> if it could decevie a human into believeing that it was human."
+            <br>
+            <br>
+            alan Turing
+            </p>
+        </section>
+
+        <section>
+
+            <h2 class="heading-blue">Formatting tables</h2>
+
+            this table will have an outiside border and cell borders.
+
+            <table id="table-with-border">
+                <tr>
+                    <td>monday</td>
+                    <td>tuesday</td>
+                    <td>wednesday</td>
+                </tr>
+                <tr>
+                    <td>thursday</td>
+                    <td>friday</td>
+                    <td>saturday</td>
+                </tr>
+            </table>
+
+            this table wont have an outiside border but the cells will along with padding.
+            <br>
+            <br>
+
+            <table id="table-with-padding">
+                <tr>
+                    <td style="background-color: white;">january</td>
+                    <td style="background-color: white;">february</td>
+                    <td style="background-color: white;">march</td>
+                </tr>
+                <tr>
+                    <td>april</td>
+                    <td>may</td>
+                    <td>june</td>
+                </tr>
+                <tr>
+                    <td>july</td>
+                    <td>august</td>
+                    <td>september</td>
+                </tr>
+                <tr>
+                    <td>october</td>
+                    <td>november</td>
+                    <td>december</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+.italics
+{
+    font-style: italic;
+}
+.bold-text
+{
+    font-weight: 600;
+}
+.red-text
+{
+    color: red;
+}
+#table-with-border
+{
+    border: solid black 1px;
+    margin: 15px 0px 10px 0px;
+}
+td{
+    border: solid black 1px;
+}
+#table-with-padding td
+{
+    padding: 10px;
+    width: 100px;
+}
+
+.rotate90
+{
+    
+    display: block;
+    position:fixed;
+    top: 10%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin: -20px 0px 0px -250px;
+    z-index: -1;
+    
+    animation: rotation 380s infinite;
+  }
+  
+  @keyframes rotation {
+    50% {
+      transform: rotate(11520deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
