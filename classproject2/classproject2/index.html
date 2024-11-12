@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Example</title>
+    </head>
+    <body>
+        <p id="demo">
+            This is a demo text.
+        </p>
+        <br>
+
+        <button onclick="changeText()">Click me!</button>
+
+        <script type="text/javascript">
+            function changeText() {
+                document.getElementById("demo").innerHTML = "My new updated text.";
+
+                window.alert("the text was dynamically updated!");
+            }
+        </script>
+        
+    </body>
+</html>
