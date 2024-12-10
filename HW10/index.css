@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: #20C20E;
+}
+
+#text-container {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px;
+    color: #20C20E;
+    background-color: black;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards; 
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+body.shake {
+    animation: shake 0.5s ease-in-out;
+    animation-iteration-count: after;
+}
+
